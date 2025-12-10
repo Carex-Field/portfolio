@@ -1,0 +1,297 @@
+@media(max-width:1100px){
+  .inner{
+    padding: 0 2rem;
+  }
+
+  /* header */
+  header li{
+    padding: 0 0.5rem;
+  }
+
+  header li:last-child{
+    margin-right: 1rem;
+  }
+
+  .phone p,
+  .phone span{
+    font-size: 1rem;
+  }
+
+  /* title */
+  .title_box{
+    top: 20%;
+    right: 10%;
+  }
+
+  /* access */
+  #access .flex{
+    flex-wrap: wrap;
+  }
+
+  #access table,
+  #access .map{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #access table{
+    margin-bottom: 1rem;
+  }
+
+  /* form */
+  .form_box{
+    width: 70%;
+  }
+
+  .form_title{
+    width: 40%;
+  }
+}
+
+@media(max-width:799px){
+  .sp{
+    display: block;
+  }
+
+  .inner{
+    justify-content: flex-start;
+  }
+
+  /* header */
+  header{
+    width: calc(100% - 40px - 1.5rem);
+  }
+
+  header #nav_btn{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .5);
+  }
+
+  header #nav_btn img{
+    width: 1.5rem;
+  }
+
+  header .menu_btn0{display: block;}
+  header .menu_btn1{display: none;}
+  header.nav_open .menu_btn0{display: none;}
+  header.nav_open .menu_btn1{display: block;}
+
+  header #gnav{
+    float: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 0;
+    background: rgba(0,0,0,.7);
+    z-index: 9998;
+    display: none;
+  }
+
+  header #gnav ul{
+    display: block;
+  }
+
+  header li{
+    margin: 2rem 0;
+    text-align: center;
+    border: none;
+  }
+
+  header li:last-child{
+    margin-right: 0;
+  }
+
+  header nav a{
+    margin: 0;
+    color: #fff;
+  }
+
+  header button{
+    display: block;
+  }
+
+  .phone{
+    display: flex;
+    align-items: center;
+  }
+
+  /* title */
+  .title button{
+    display: none;
+  }
+
+  .intro{
+    width: 90%;
+  }
+
+  /* feature */
+  #feature .box{
+    flex-wrap: wrap;
+  }
+
+  #feature .text_box{
+    width: 100%;
+  }
+
+  #feature .text_box:not(:last-child){
+    margin-bottom: 5rem;
+  }
+}
+
+@media(max-width:599px){
+  .inner{
+    padding: 0 1rem;
+  }
+
+  /* header */
+  .logo{
+    width: 30%;
+  }
+
+  /* course */
+  #course .box,
+  #course .box:nth-child(even){
+    flex-direction: column-reverse;
+  }
+
+  #course .img_box{
+    width: 100%;
+  }
+
+  #course .text_box{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* form */
+  #form h2{
+    font-size: 1.5rem;
+  }
+
+  label{
+    flex-direction: column;
+  }
+
+  .form_title{
+    width: 60%;
+    margin-bottom: 0.5rem;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="date"],
+  textarea{
+    margin-left: 2rem;
+  }
+
+  /* footer */
+  footer .inner{
+    padding: 4rem 0;
+  }
+
+  footer .flex{
+    display: none;
+  }
+
+  footer p{
+    padding: 0;
+  }
+
+  #pagetop{
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+@media(max-width:499px){
+  /* header */
+  header{
+    width: 100%;
+  }
+
+  header .inner{
+    flex-direction: column;
+  }
+
+  header #nav_btn{
+    padding: 5px 10px;
+  }
+
+  /* title */
+  .title_box{
+    position: initial;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .title h1{
+    color: #000;
+    text-shadow: none;
+  }
+
+  .title .sub{
+    text-shadow: none;
+  }
+
+  /* access */
+  #access table th{
+    display: block;
+    width: 100%;
+  }
+
+  #access table td{
+    display: block;
+    width: 100%;
+    padding-left: 1rem;
+  }
+
+  tr td:last-child{
+    margin-bottom: 1rem;
+  }
+
+  .train{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .train td{
+    display: initial;
+  }
+
+  .line,
+  .station{
+    text-align: start;
+  }
+
+  /* form */
+  #form h2::before,
+  #form h2::after{
+    width: 40px;
+  }
+
+  .form_box{
+    width: 100%;
+  }
+}
+
+@media(max-width:399px){
+  /* form */
+  .form_title{
+    width: 80%;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="date"],
+  textarea{
+    margin-left: 1rem;
+  }
+}
