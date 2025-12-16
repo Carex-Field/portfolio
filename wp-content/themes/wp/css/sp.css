@@ -1,0 +1,113 @@
+@media (max-width: 1200px) {
+  .inner {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #works .pop_up {
+    width: 49%;
+  }
+
+  #works .pop_up:nth-child(n + 3) {
+    margin-top: 2%;
+  }
+
+  .skill_box .box {
+    width: 49%;
+  }
+
+  .skill_box .box:nth-child(n + 3) {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .profile .box {
+    flex-direction: column;
+  }
+
+  .faceimg {
+    margin: 0 0 1.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  header .inner {
+    padding-top: 1rem;
+  }
+
+  header ul {
+    margin: 0 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .is-fixed {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 60px 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+  }
+
+  header ul {
+    display: block;
+  }
+
+  header li {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+
+  .openbtn {
+    display: block;
+  }
+
+  #works .pop_up {
+    width: 100%;
+  }
+
+  #works .pop_up:nth-child(n + 2) {
+    margin-top: 2rem;
+  }
+
+  .modal-content {
+    width: 90%;
+    height: 90vh;
+    padding: 0 1.5rem;
+  }
+
+  .modal-content tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-content th {
+    text-align: start;
+    padding-bottom: 0.5rem;
+  }
+
+  .modal-content td {
+    padding-left: 1rem;
+  }
+
+  .skill_box .box {
+    width: 100%;
+  }
+
+  .skill_box .box:nth-child(n + 2) {
+    margin-top: 5rem;
+  }
+}
