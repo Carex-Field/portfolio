@@ -27,14 +27,6 @@ a {
   text-decoration: none;
 }
 
-a[target="_blank"]::after {
-  font-family: "Font Awesome 6 Free";
-  content: "\f35d"; /* Font Awesomeのアイコンコード (例: fa-external-link-alt) */
-  font-weight: 700;
-  margin-left: 6px;
-  color: #808080; /* アイコンの色 */
-}
-
 .flex {
   display: flex;
 }
@@ -187,6 +179,14 @@ header ul a:hover {
   gap: 2%;
 }
 
+#works a[target="_blank"]::after {
+  font-family: "Font Awesome 6 Free";
+  content: "\f35d"; /* Font Awesomeのアイコンコード (例: fa-external-link-alt) */
+  font-weight: 700;
+  margin-left: 6px;
+  color: #808080; /* アイコンの色 */
+}
+
 #works .pop_up {
   width: 32%;
   background: #fff;
@@ -315,6 +315,7 @@ header ul a:hover {
 
 .faceimg {
   width: 10rem;
+  height: 100%;
   margin-right: 2rem;
 }
 

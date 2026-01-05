@@ -4,6 +4,12 @@
   }
 }
 
+@media (max-width: 767px) {
+  .is-fixed {
+    overflow: hidden;
+  }
+}
+
 @media (max-width: 640px) {
   .sp {
     display: block;
