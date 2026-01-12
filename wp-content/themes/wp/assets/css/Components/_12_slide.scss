@@ -1,0 +1,25 @@
+@use "../settings/variable" as v;
+@use "../settings/mixin" as r;
+@use "../settings/_path" as p;
+
+/*------------------------------------------------------------
+slider
+------------------------------------------------------------*/
+// .c-slider01 {
+//   width: 600px;
+//   height: 300px;
+
+//   .swiper-slide {
+//     background: #eeeeee;
+//   }
+// }
+
+.c-fadeUp {
+  opacity: 0;
+  transform: translate(0, 75px);
+  transition: all 0.5s;
+  &.is-show {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}

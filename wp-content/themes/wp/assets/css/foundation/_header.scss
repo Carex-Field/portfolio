@@ -1,0 +1,11 @@
+@use "../settings/variable" as v;
+@use "../settings/mixin" as r;
+@use "../settings/_path" as p;
+
+// .l-header{}
+
+.is-fixed {
+  @include r.sp {
+    overflow: hidden;
+  }
+}
