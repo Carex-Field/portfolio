@@ -10,6 +10,7 @@
   <meta name="robots" content="none" />
   <title><?php echo $title ?></title>
   <meta name="description" content="<?php echo $description ?>">
+  <link rel="icon" href="/wp-content/themes/wp/assets/images/common/favicon.ico">
 
   <meta property="og:url" content="">
   <meta property="og:type" content="website">
