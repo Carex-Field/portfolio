@@ -39,6 +39,12 @@
             </div>
             <h3 class="p-top1__box__ttl">Carex Field Portfolio</h3>
           </div>
+          <div class="p-top1__box c-fadeUp">
+            <div class="p-top1__box__img">
+              <img src="/wp-content/themes/wp/assets/images/top/task-planner.png" alt="Task Planner" />
+            </div>
+            <h3 class="p-top1__box__ttl">Task Planner</h3>
+          </div>
         </div>
         <div class="p-top1__modal">
           <div class="p-top1__modal__container">
@@ -138,6 +144,42 @@
                   <th class="p-top1__modal__ttl">コメント：</th>
                   <td class="p-top1__modal__txt">
                     私自身のポートフォリオサイトです。<br />この１ページで情報を得られるようにすることで、ページ移動の手間を少なくしています。<br />また、できるだけシンプルなサイト構造になるように意識しました。<br />プロフィールの部分などについては今後もブラッシュアップしていきたいです。
+                  </td>
+                </tr>
+              </table>
+              <div class="p-top1__modal__btn"><p>閉じる</p></div>
+            </div>
+          </div>
+          <div class="p-top1__modal__container">
+            <div class="p-top1__modal__bg"></div>
+            <div class="p-top1__modal__content">
+              <p class="p-top1__modal__close">×</p>
+              <div class="p-top1__modal__img">
+                <img src="/wp-content/themes/wp/assets/images/top/mockup_task-planner.png" alt="Task-Planner_mockup" />
+              </div>
+              <table>
+                <tr>
+                  <th class="p-top1__modal__ttl">サイトタイトル：</th>
+                  <td class="p-top1__modal__txt">
+                    <a href="https://carex-task-planner.vercel.app/" class="p-top1__modal__link" target="_blank">Task Planner</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th class="p-top1__modal__ttl">制作期間：</th>
+                  <td class="p-top1__modal__txt">２人日</td>
+                </tr>
+                <tr>
+                  <th class="p-top1__modal__ttl">担当：</th>
+                  <td class="p-top1__modal__txt">企画／デザイン／コーディング</td>
+                </tr>
+                <tr>
+                  <th class="p-top1__modal__ttl">コメント：</th>
+                  <td class="p-top1__modal__txt">
+                    React（TypeScript）で作成したタスク管理アプリです。<br>
+                    ダークモードやローカルストレージでの保存機能が備わっています。<br>
+                    また、機能実装だけでなく、state設計・コンポーネント分割・スタイル設計を重視して開発しました。<br>
+                    
                   </td>
                 </tr>
               </table>
