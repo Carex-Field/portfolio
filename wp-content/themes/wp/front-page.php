@@ -45,6 +45,12 @@
             </div>
             <h3 class="p-top1__box__ttl">Task Planner</h3>
           </div>
+          <div class="p-top1__box c-fadeUp">
+            <div class="p-top1__box__img">
+              <img src="/wp-content/themes/wp/assets/images/top/nexrise.png" alt="NexRise" />
+            </div>
+            <h3 class="p-top1__box__ttl">NexRise</h3>
+          </div>
         </div>
         <div class="p-top1__modal">
           <div class="p-top1__modal__container">
@@ -186,6 +192,42 @@
               <div class="p-top1__modal__btn"><p>閉じる</p></div>
             </div>
           </div>
+          <div class="p-top1__modal__container">
+            <div class="p-top1__modal__bg"></div>
+            <div class="p-top1__modal__content">
+              <p class="p-top1__modal__close">×</p>
+              <div class="p-top1__modal__img">
+                <img src="/wp-content/themes/wp/assets/images/top/mockup_nexrise.png" alt="NexRise_mockup" />
+              </div>
+              <table>
+                <tr>
+                  <th class="p-top1__modal__ttl">サイトタイトル：</th>
+                  <td class="p-top1__modal__txt">
+                    <a href="https://nexrise.carexfield.shop/" class="p-top1__modal__link" target="_blank">NexRise</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <th class="p-top1__modal__ttl">制作期間：</th>
+                  <td class="p-top1__modal__txt">５人日</td>
+                </tr>
+                <tr>
+                  <th class="p-top1__modal__ttl">担当：</th>
+                  <td class="p-top1__modal__txt">設計／デザイン／コーディング</td>
+                </tr>
+                <tr>
+                  <th class="p-top1__modal__ttl">コメント：</th>
+                  <td class="p-top1__modal__txt">
+                    DX支援コンサルティング会社の架空コーポレートサイトです。<br>
+                    サービスや事例はWordPressのカスタム投稿で作成し、<br>
+                    シングルページはカスタムフィールドに文章を入力するのみで作成可能となっており、<br>
+                    普段コーディングをしない方でも簡単に管理できるように設計して制作しました。
+                  </td>
+                </tr>
+              </table>
+              <div class="p-top1__modal__btn"><p>閉じる</p></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -203,14 +245,16 @@
               <p class="p-top2__profile__txt">氏名：菅原 尭（すがわら たかし）</p>
               <p class="p-top2__profile__txt">生年月日：1992年1月22日</p>
               <p class="p-top2__profile__txt">
-                これまでフロントエンドエンジニアとして、新規Webサイトの立ち上げを中心に数多く担当してきました。
+                これまでフロントエンドエンジニアとして、HTML5／CSS3／JavaScriptを中心としたコーディング業務に従事し、レスポンシブデザインやWordPressを用いた実装経験を重ねてきました。<br>
+                コーポレートサイトやLPの新規Webサイトの制作だけでなく、既存サイトの修正や更新も多く担当してきました。
               </p>
               <p class="p-top2__profile__txt">
-                短い開発期間の案件も多く、限られたスケジュールの中で品質を担保しながら実装を進めるスピード感を強みとしています。<br>
-                そのため、再利用性を意識したコンポーネント設計や、修正影響範囲を最小限に抑える実装を心がけ、柔軟かつ迅速に対応してきました。
+                Web制作会社勤務時には短い開発期間の案件も多く、そのため限られたスケジュールの中で品質を担保しながら実装を進めるスピード感を強みとしています。<br>
+                再利用性を意識したコンポーネント設計や、修正影響範囲を最小限に抑える実装を心がけ、柔軟かつ迅速に対応してまいります。
               </p>
               <p class="p-top2__profile__txt">
-                デザイナーやディレクターと密にコミュニケーションを取り、認識のズレを早期に解消することで、手戻りの少ない開発を実現してきたと考えています。
+                また、顧客との要件ヒアリングや仕様調整にも担当エンジニアとして参加することもあり、非エンジニアの方にも分かりやすい説明を心がけながら、ユーザー体験や運用のしやすさ等を踏まえた最適な形に落とし込むよう努めてきました。<br>
+                チームとしてデザイナーやディレクターとも密にコミュニケーションを取りながら、技術的な制約や代替案を丁寧に共有することで、認識のズレを早期に解消し手戻りの少ない開発進行に貢献いたします。
               </p>
             </div>
           </div>
@@ -248,7 +292,7 @@
               <div class="p-top2__skill__content">
                 <p class="p-top2__skill__name">WordPress</p>
                 <p class="p-top2__skill__txt">
-                  テーマの作成も可能で、前職では検索機能の付いた商品ページの作成なども行っておりました。また、カスタムフィールドなどを用いて普段コーディングしない運営者でも使いやすいように設計することも可能です。
+                  オリジナルテーマの作成も可能で、前職では検索機能の付いた商品ページの作成なども行っておりました。また、カスタムフィールドなどを用いて普段コーディングしない運営者でも使いやすいように設計することも可能です。
                 </p>
               </div>
             </div>
