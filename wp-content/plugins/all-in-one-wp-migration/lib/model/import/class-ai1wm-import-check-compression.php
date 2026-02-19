@@ -29,10 +29,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( 'Kangaroos cannot jump here' );
 }
 
-class Ai1wm_Import_Check_Decryption_Password {
+class Ai1wm_Import_Check_Compression {
 
 	public static function execute( $params ) {
-		global $ai1wm_params;
 
 		// Read package.json file
 		$handle = ai1wm_open( ai1wm_package_path( $params ), 'r' );
@@ -44,29 +43,30 @@ class Ai1wm_Import_Check_Decryption_Password {
 		// Close handle
 		ai1wm_close( $handle );
 
-		if ( ! empty( $params['decryption_password'] ) ) {
-			if ( ai1wm_is_decryption_password_valid( $package['EncryptedSignature'], $params['decryption_password'] ) ) {
-				$params['is_decryption_password_valid'] = true;
-
-				$archive = new Ai1wm_Extractor( ai1wm_archive_path( $params ), $params['decryption_password'] );
-				$archive->extract_by_files_array( ai1wm_storage_path( $params ), array( AI1WM_MULTISITE_NAME, AI1WM_DATABASE_NAME ), array(), array() );
-
-				Ai1wm_Status::info( __( 'Decryption password validated.', 'all-in-one-wp-migration' ) );
-
-				$ai1wm_params = $params;
-
-				return $params;
-			}
-
-			$decryption_password_error = __( 'The decryption password is not valid. The process cannot continue.', 'all-in-one-wp-migration' );
-
-			if ( defined( 'WP_CLI' ) ) {
-				WP_CLI::error( $decryption_password_error );
-			} else {
-				Ai1wm_Status::backup_is_encrypted( $decryption_password_error );
-				exit;
-			}
+		// No compression provided
+		if ( empty( $package['Compression']['Enabled'] ) || empty( $package['Compression']['Type'] ) ) {
+			return $params;
 		}
+
+		// Check if server supports decompression
+		if ( ! ai1wm_has_compression_type( $package['Compression']['Type'] ) ) {
+			throw new Ai1wm_Import_Exception(
+				wp_kses(
+					sprintf(
+						__(
+							'Importing a compressed backup is not supported on this server.
+							Please ensure <strong>%s</strong> extension is enabled. <a href="https://help.servmask.com/knowledgebase/compressed-backups/" target="_blank">Technical details</a>',
+							'all-in-one-wp-migration'
+						),
+						$package['Compression']['Type']
+					),
+					ai1wm_allowed_html_tags()
+				)
+			);
+		}
+
+		// Set progres
+		Ai1wm_Status::info( __( 'Compressed backup detected. Compression will be handled automatically.', 'all-in-one-wp-migration' ) );
 
 		return $params;
 	}

@@ -211,17 +211,14 @@ for develop
 /*------------------------------------------------------------
 breadcrumb
 ------------------------------------------------------------*/
-.p-top {
-  /* header */
-  /* works */
-  /* about */
-  /* footer */
-}
 .p-top .inner {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+.p-top {
+  /* header */
 }
 .p-top__header {
   background-color: #ccc;
@@ -363,6 +360,9 @@ breadcrumb
   height: 1px;
   background: #000;
   margin-right: 1rem;
+}
+.p-top {
+  /* works */
 }
 .p-top1 {
   background: #eee;
@@ -507,11 +507,12 @@ breadcrumb
   text-align: center;
   padding: 0.5em;
 }
+.p-top {
+  /* about */
+}
 .p-top2 {
   background: #eee;
   padding: 3rem 0;
-  /* profile */
-  /* skills */
 }
 .p-top2__content {
   padding-left: 2rem;
@@ -519,6 +520,9 @@ breadcrumb
 .p-top2__content__ttl {
   font-size: 1.5em;
   margin-bottom: 1rem;
+}
+.p-top2 {
+  /* profile */
 }
 .p-top2__profile {
   display: flex;
@@ -546,6 +550,9 @@ breadcrumb
 }
 .p-top2__profile__txt:last-child {
   margin-bottom: 0;
+}
+.p-top2 {
+  /* skills */
 }
 .p-top2__skill {
   display: flex;
@@ -591,6 +598,9 @@ breadcrumb
   font-weight: bold;
   margin-bottom: 1rem;
 }
+.p-top {
+  /* footer */
+}
 .p-top__footer {
   background: #000;
   padding: 3rem 0;
@@ -600,15 +610,14 @@ breadcrumb
   text-align: center;
 }
 
-.p-2ot {
-  /* header */
-  /* footer */
-}
 .p-2ot .inner {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+.p-2ot {
+  /* header */
 }
 .p-2ot__header {
   position: relative;
@@ -775,11 +784,6 @@ breadcrumb
 }
 .p-2ot__section {
   padding: 5em 0;
-  /* about */
-  /* menu */
-  /* news */
-  /* access */
-  /* contact */
 }
 @media screen and (max-width: 768px) {
   .p-2ot__section {
@@ -810,6 +814,9 @@ breadcrumb
   font-size: 1.8rem;
   margin-top: 0.8rem;
 }
+.p-2ot__section {
+  /* about */
+}
 .p-2ot__section1 {
   background: #fff;
 }
@@ -821,6 +828,9 @@ breadcrumb
   .p-2ot__section1__txt {
     text-align: start;
   }
+}
+.p-2ot__section {
+  /* menu */
 }
 .p-2ot__section2 {
   background: lemonchiffon;
@@ -909,6 +919,9 @@ breadcrumb
   display: block;
   padding: 0.5em 1.5em;
 }
+.p-2ot__section {
+  /* news */
+}
 .p-2ot__section3 {
   background: url(/wp-content/themes/wp/assets/images/2ot/coffee.jpg) no-repeat bottom right/contain;
   background-color: #fff;
@@ -942,6 +955,9 @@ breadcrumb
   .p-2ot__section3__box__txt {
     width: 60%;
   }
+}
+.p-2ot__section {
+  /* access */
 }
 .p-2ot__section4 {
   background: lemonchiffon;
@@ -1002,6 +1018,9 @@ breadcrumb
     width: 100%;
   }
 }
+.p-2ot__section {
+  /* contact */
+}
 .p-2ot__section5 {
   background: url(/wp-content/themes/wp/assets/images/2ot/court.jpg) no-repeat center center/contain;
   background-color: #fff;
@@ -1043,6 +1062,9 @@ breadcrumb
 .p-2ot__section5__btn__link:hover {
   color: #097edd;
   cursor: pointer;
+}
+.p-2ot {
+  /* footer */
 }
 .p-2ot__footer {
   background: #000;
@@ -1090,21 +1112,14 @@ breadcrumb
   }
 }
 
-.p-abc-school {
-  /* header */
-  /* ttl */
-  /* feature */
-  /* course */
-  /* voice */
-  /* access */
-  /* form */
-  /* footer */
-}
 .p-abc-school .inner {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+.p-abc-school {
+  /* header */
 }
 .p-abc-school__header {
   background: #fff;
@@ -1273,6 +1288,9 @@ breadcrumb
     transform: translateY(0);
   }
 }
+.p-abc-school {
+  /* ttl */
+}
 .p-abc-school__ttl {
   display: flex;
   align-items: center;
@@ -1376,6 +1394,9 @@ breadcrumb
     margin: 0;
   }
 }
+.p-abc-school {
+  /* feature */
+}
 .p-abc-school2 {
   background: #ffa500;
   padding: 5em 0;
@@ -1424,6 +1445,9 @@ breadcrumb
   font-size: 1.5em;
   border-bottom: #ffa500 2px solid;
   margin: 0 auto 0.5em;
+}
+.p-abc-school {
+  /* course */
 }
 .p-abc-school3 {
   background: #00ff00;
@@ -1511,6 +1535,9 @@ breadcrumb
   font-size: 1.6rem;
   color: #fff;
   padding: 1em 3em;
+}
+.p-abc-school {
+  /* voice */
 }
 .p-abc-school5 {
   background: #ccc;
@@ -1602,6 +1629,9 @@ breadcrumb
 }
 .p-abc-school5__box__txt--2 {
   text-align: right;
+}
+.p-abc-school {
+  /* access */
 }
 .p-abc-school6 {
   background: #fff;
@@ -1698,6 +1728,9 @@ breadcrumb
     width: 100%;
   }
 }
+.p-abc-school {
+  /* form */
+}
 .p-abc-school7 {
   background: #ccc;
   padding: 5em 0;
@@ -1770,6 +1803,9 @@ breadcrumb
   font-size: 0.75em;
   color: #d81b1b;
   margin-top: -0.5em;
+}
+.p-abc-school {
+  /* footer */
 }
 .p-abc-school__footer {
   background-color: #333;
