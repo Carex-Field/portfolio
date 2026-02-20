@@ -81,10 +81,15 @@ html {
 
 body {
   // font-family: "Noto Sans JP", sans-serif;
-  font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans", "Meiryo", sans-serif;
+  font-family:
+    "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+    "Meiryo", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
+  &.is-loading {
+    height: 100vh;
+    overflow: hidden;
+  }
 }
 
 // Safari用のハックは、Chromeに適用されないようにする

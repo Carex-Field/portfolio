@@ -3,6 +3,12 @@
 @use "../../settings/_path" as p;
 
 .p-top {
+  .l-wrapper {
+    &.is-loading {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+  }
   .inner {
     width: 100%;
     max-width: 1240px;

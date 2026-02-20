@@ -25,3 +25,17 @@ function dequeue_plugins_style() {
 	wp_dequeue_style('wp-block-library');
 }
 add_action( 'wp_enqueue_scripts', 'dequeue_plugins_style', 9999);
+
+// GSAP
+function add_gsap() {
+  if (is_front_page()) {
+    wp_enqueue_script(
+      'gsap',
+      'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js',
+      array(),
+      null,
+      true
+    );
+  }
+}
+add_action('wp_enqueue_scripts', 'add_gsap');

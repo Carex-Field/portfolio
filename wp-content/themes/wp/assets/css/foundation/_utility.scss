@@ -1,6 +1,23 @@
-@use '../settings/variable'as v;
-@use '../settings/mixin'as r;
-@use '../settings/_path'as p;
+@use "../settings/variable" as v;
+@use "../settings/mixin" as r;
+@use "../settings/_path" as p;
 
-//utility
-// .u-xxx {}
+// utility
+.u-loading {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  transform-origin: top;
+  &__inner {
+    p {
+      opacity: 0;
+      font-size: 28px;
+      color: #fff;
+      letter-spacing: 4px;
+    }
+  }
+}
